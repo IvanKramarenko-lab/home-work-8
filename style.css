@@ -25,19 +25,39 @@ div[class^="minor"], .main-box {
     height: 100px;
 }
 
-.minor-box-right {
+.minor-box-first-right {
     float: right;
     margin-left: 2%;
     width: 150px;
     height: 100px;
 }
 
-.minor-box-small-right {
+.minor-box-right {
+    float: left;
+    margin-right: 2%;
+    width: 150px;
+    height: 100px;
+}
+
+.minor-box-right:last-of-type {
+    margin-right: 0;
+}
+
+.main-box-right-item {
+    width: 320px;
     float: right;
-    margin-top: 1%;
-    margin-left: 2%;
+}
+
+.minor-box-small-right {
+    float: left;
+    margin-top: 4%;
+    margin-right: 2%;
     width: 75px;
     height: 70px;
+}
+
+.minor-box-small-right:last-of-type {
+    margin-right: 0;
 }
 
 .main-box-item-center {
